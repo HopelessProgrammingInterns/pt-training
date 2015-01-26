@@ -3,6 +3,8 @@ Lists
 
 This is the training area for lists. In lists.c, you may implement a [doubly-linked list](http://www.wikiwand.com/en/Doubly_linked_list) based on the interface defined in `list.h`.
 
+The header files contain comments outlining the data structures and functions a bit closer.
+
 There's also an interface for a C++ STL-vector type list, which uses an array that is resized as needed instead of linking to the next element every time. To test your implementation, open `test.c` and change `USE_VECTOR` at the very top to:
 ```
 #define USE_VECTOR 1
@@ -28,4 +30,4 @@ There's also a `print_list` method in test.c, which you may insert at any point 
 I can't get it to work D:
 =========================
 
-We have solutions in the `solution/` and a helpful channel on slack.
+We have solutions in the `solution/` directory and a helpful channel on slack.
